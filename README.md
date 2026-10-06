@@ -9,6 +9,6 @@ indie-game, written there by `tools/publish_web.sh GAME`; a new game also gets a
 
 | Game | Path | Built from codlearner/indie-game |
 | --- | --- | --- |
-| 重力立方 | `cubefps/` | 64758e8 (detailed hard-surface robots that break into their real parts, film-like grade, lamp light on enemies; `?demo=swarm` opens the cube-swarm look test) |
+| 重力立方 | `cubefps/` | 803f35c (baked global illumination on every face: real lamp pools, shadows and bounce light; detailed hard-surface robots, film-like grade; `?demo=swarm` opens the cube-swarm look test) |
 | 羽毛球 | `badminton/` | 799b725 (players with skeletons and swing animation) |
 | 零零后 (paused) | `lifesim/` | same build as before, moved from the root unchanged |

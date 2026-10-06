@@ -1,5 +1,13 @@
 # indie-game-play
 
-Web build of the 00s life sim prototype, published from codlearner/indie-game for playtesting in a browser. Generated files only; the source lives in the private repo.
+Web builds of Hang's games, published from the private repo codlearner/indie-game for playtesting in a browser
+(https://codlearner.github.io/indie-game-play/). Generated files only.
 
-`badminton/` holds the web build of the badminton prototype (https://codlearner.github.io/indie-game-play/badminton/), last built from codlearner/indie-game@799b725 (players with skeletons and swing animation).
+The root `index.html` is a game picker. Each game's build sits in the folder with the same name as its folder in
+indie-game, written there by `tools/publish_web.sh GAME`; a new game also gets a card in `index.html` and a cover in
+`covers/` (a 640x360 JPEG from a screenshot).
+
+| Game | Path | Built from codlearner/indie-game |
+| --- | --- | --- |
+| 羽毛球 | `badminton/` | 799b725 (players with skeletons and swing animation) |
+| 零零后 (paused) | `lifesim/` | same build as before, moved from the root unchanged |

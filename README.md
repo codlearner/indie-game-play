@@ -9,6 +9,6 @@ indie-game, written there by `tools/publish_web.sh GAME`; a new game also gets a
 
 | Game | Path | Built from codlearner/indie-game |
 | --- | --- | --- |
-| 重力立方 | `cubefps/` | c7fe708 (greybox: cube gravity, one rifle, target drones) |
+| 重力立方 | `cubefps/` | 57a6aac (greybox: robot soldiers and drones that fight back, in waves) |
 | 羽毛球 | `badminton/` | 799b725 (players with skeletons and swing animation) |
 | 零零后 (paused) | `lifesim/` | same build as before, moved from the root unchanged |

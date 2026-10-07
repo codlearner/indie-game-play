@@ -9,6 +9,6 @@ indie-game, written there by `tools/publish_web.sh GAME`; a new game also gets a
 
 | Game | Path | Built from codlearner/indie-game |
 | --- | --- | --- |
-| 重力立方 | `cubefps/` | 2f40780 (neon tube signs, blade signs, LED strips, video screens, utility poles with cables and string lights, their coloured light baked onto walls and street; Hong Kong style walls from Meshy pictures; kerbed pavements with manholes, drains and litter; Meshy props, lamps, robots and drones; `?demo=swarm` opens the cube-swarm look test) |
+| 重力立方 | `cubefps/` | 9223626 (complete small version: title, settings, one mission of six jammer towers and a three-phase core boss, death and checkpoint, results with rank and best record, generated music and sounds; the city, Meshy props, robots and drones from before; `?demo=swarm` opens the cube-swarm look test) |
 | 羽毛球 | `badminton/` | 799b725 (players with skeletons and swing animation) |
 | 零零后 (paused) | `lifesim/` | same build as before, moved from the root unchanged |

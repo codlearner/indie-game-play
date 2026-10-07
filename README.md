@@ -9,6 +9,6 @@ indie-game, written there by `tools/publish_web.sh GAME`; a new game also gets a
 
 | Game | Path | Built from codlearner/indie-game |
 | --- | --- | --- |
-| 重力立方 | `cubefps/` | 7d8bdef (Hong Kong style building and warehouse walls from Meshy pictures; pavements behind a real kerb with manholes, drains, hatches and litter on the ground; Meshy street props, lamps, robot soldiers and drones; steel market platform; light rebaked; `?demo=swarm` opens the cube-swarm look test) |
+| 重力立方 | `cubefps/` | 2f40780 (neon tube signs, blade signs, LED strips, video screens, utility poles with cables and string lights, their coloured light baked onto walls and street; Hong Kong style walls from Meshy pictures; kerbed pavements with manholes, drains and litter; Meshy props, lamps, robots and drones; `?demo=swarm` opens the cube-swarm look test) |
 | 羽毛球 | `badminton/` | 799b725 (players with skeletons and swing animation) |
 | 零零后 (paused) | `lifesim/` | same build as before, moved from the root unchanged |

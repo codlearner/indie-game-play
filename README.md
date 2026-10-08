@@ -9,6 +9,7 @@ indie-game, written there by `tools/publish_web.sh GAME`; a new game also gets a
 
 | Game | Path | Built from codlearner/indie-game |
 | --- | --- | --- |
+| 水位线 | `waterline/` | ec8c501 (prototypes 1A, the one-year loop with a text UI, and 1B, one building in real time; a start screen picks one) |
 | 重力立方 | `cubefps/` | 9223626 (complete small version: title, settings, one mission of six jammer towers and a three-phase core boss, death and checkpoint, results with rank and best record, generated music and sounds; the city, Meshy props, robots and drones from before; `?demo=swarm` opens the cube-swarm look test) |
 | 羽毛球 | `badminton/` | 799b725 (players with skeletons and swing animation) |
 | 零零后 (paused) | `lifesim/` | same build as before, moved from the root unchanged |

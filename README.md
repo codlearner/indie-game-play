@@ -7,6 +7,13 @@ The root `index.html` is a game picker. Each game's build sits in the folder wit
 indie-game, written there by `tools/publish_web.sh GAME`; a new game also gets a card in `index.html` and a cover in
 `covers/` (a 640x360 JPEG from a screenshot).
 
+Android installers sit in `apk/` (outside the game folders, which `publish_web.sh` replaces), built by indie-game's
+Android workflow and copied from its `apk/GAME` branch:
+
+| Game | APK | Built from codlearner/indie-game |
+| --- | --- | --- |
+| 炮棋 | https://codlearner.github.io/indie-game-play/apk/cannonchess.apk | 6ad0aaf (arm64, 28 MB) |
+
 | Game | Path | Built from codlearner/indie-game |
 | --- | --- | --- |
 | 炮棋 | `cannonchess/` | c6b2e0e (first version: rules, two players or the computer at three levels, search depth 1 / 2 / 3; 2–8 extra rows, rules card) |

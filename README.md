@@ -7,8 +7,16 @@ The root `index.html` is a game picker. Each game's build sits in the folder wit
 indie-game, written there by `tools/publish_web.sh GAME`; a new game also gets a card in `index.html` and a cover in
 `covers/` (a 640x360 JPEG from a screenshot).
 
+Android installers sit in `apk/` (outside the game folders, which `publish_web.sh` replaces), built by indie-game's
+Android workflow and copied from its `apk/GAME` branch:
+
+| Game | APK | Built from codlearner/indie-game |
+| --- | --- | --- |
+| 炮棋 | https://codlearner.github.io/indie-game-play/apk/cannonchess.apk | 6ad0aaf (arm64, 28 MB) |
+
 | Game | Path | Built from codlearner/indie-game |
 | --- | --- | --- |
+| 炮棋 | `cannonchess/` | c6b2e0e (first version: rules, two players or the computer at three levels, search depth 1 / 2 / 3; 2–8 extra rows, rules card) |
 | 水位线 | `waterline/` | 0c97fbf (prototypes 1A, the one-year loop played in the picture of the home or as text, and 1B, one building in real time; a start screen picks one) |
 | 重力立方 | `cubefps/` | 9223626 (complete small version: title, settings, one mission of six jammer towers and a three-phase core boss, death and checkpoint, results with rank and best record, generated music and sounds; the city, Meshy props, robots and drones from before; `?demo=swarm` opens the cube-swarm look test) |
 | 羽毛球 | `badminton/` | 799b725 (players with skeletons and swing animation) |
